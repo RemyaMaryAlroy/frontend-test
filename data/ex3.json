@@ -1,0 +1,11 @@
+{
+	"templatePath": "pages/ex3",
+	"views"       : [
+    {
+      "templatePath": "../pangram/pangram",
+      "views"       : [],
+      "data"        : {}
+    }
+  ],
+	"data"        : {}
+}

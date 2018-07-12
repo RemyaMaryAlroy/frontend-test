@@ -1,0 +1,43 @@
+= Test App
+Doc Writer <jpr@ethinking.de>
+Developed under NodeJs 7.7.1
+
+== Installation
+
+First clone or download this project on your computer.
+
+To work with this app, you need to have `nodeJs` intalled on your machine. If you don't, go to https://nodejs.org/en/[nodeJs] website and install the last recommended version.
+
+Then you need to install `gulp` globally on your machine. Open a terminal and enter: `npm i gulp -g`.
+
+=== Dependencies installation:
+
+Go inside the `frontend-test` folder, open your terminal here and enter `npm i`. This will isntall all the dependencies required to use this app.
+
+Once finished, enter `gulp serve` to start the local server. It should open a page in your browser. If not, open the page `http://localhost:3000/index`.
+
+=== Exercises:
+
+1- In the `Design` folder, you will find 4 jpg files. I will ask you to create the menu like it is on the design. It's a responsive menu with just one breakpoint. It should look similar as it is on the design, but no need to be "pixel perfect".
+
+Write your HTML code in the file located in `app/views/header/header.ejs`. Don't put any html or body tags inside, they are already somewhere else in the template, write only your code for the menu. You can write normal HTML in this file, don't be scared of the .ejs extension, it changes nothing.
+
+Write your CSS in the header.scss file located in `app/sass/header/header.scss`.
+
+Write your JAVASCRIPT in the menu.js file located in `app/js/main/menu.js`.
+
+The icons are located inside `public/images`, to display them, just call: `./images/YOUR_IMAGE_NAME`. Nav icons are different than on the design, it's not a problem.
+
+Any change on your code will refresh the page. The CSS will be refreshed without refreshing the all page.
+
+jQuery is present in the project so you can use it. No other library is allowed (no Bootstrap for example).
+Usage of css flex will be a plus, but not mandatory.
+
+2- For the second exercise, open the `app/js/main/ex2.js` file, and answer the few questions.
+
+=== Send your results:
+
+Once all done, put the results into a personnal GIT repository, and send me the link to it (add jpr@ethinking.de). If you don't know how to do this, just zip and send me by mail what's inside the `app` folder.
+
+I wish you good luck, anf if you have any question or problem, please contact Jérôme @ jpr@ethinking.de (In English preferably)
+

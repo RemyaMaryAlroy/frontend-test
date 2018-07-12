@@ -1,0 +1,7 @@
+{
+  "templatePath": "header/header",
+  "views": [],
+  "data": {
+    "message": "Header of your App"
+  }
+}

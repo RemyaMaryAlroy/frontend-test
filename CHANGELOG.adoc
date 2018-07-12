@@ -1,0 +1,115 @@
+= Change Log
+Doc Writer <jpr@ethinking.de>
+
+All notable changes to this project will be documented in this file.
+
+The format is based on http://keepachangelog.com/[Keep a Changelog]
+and this project adheres to http://semver.org/[Semantic Versioning].
+
+== [3.1.0] - 2018-01-08
+
+=== Modified
+. Changed livereload by browsersync
+
+'''
+
+== [3.0.2] - 2017-11-06
+
+=== Fixed
+. Removed "mainFolder" into `cdm.js`.
+. We don't clean anymore the `dist` folder.
+. Removed "workingSite into `gulp.js`.
+. Other small fixes
+
+=== Future improvements
+. Generate css and js in .tmp folder and then move it to public or build
+
+'''
+
+== [3.0.1] - 2017-11-01
+
+=== Modified
+. Several small bugs fixes
+
+'''
+
+== [3.0.0] - 2017-10-24
+
+=== Modified
+. All generated .js and .css files in the public folder are now ignored by GIT, the build is not (in the dist folder at the root of the project)
+. Back to single app
+
+'''
+
+== [2.0.0] - 2017-07-18
+
+=== New
+. Clickdummy app goes multi-site!
+. Multi-site with a common folder.
+. Possibility to add group templates.
+. Possibility to rename sass files.
+. Possibility to create all sass files from a BEM name.
+. Possibility to work with scss and not only sass now.
+. More ES6!!!
+
+'''
+
+== [1.0.5] - 2017-05-12
+
+=== Modified
+. Vendor javascript are now in a separate file in `js/vendor/vendor.js`
+. Custom css are now in a `main` folder
+. Gulp.js modified to listen to the new `vendor.js` file and update the one in the `dist` folder (_it was only possible to update it when updating a custom js file before_)
+. Removed `babel` from package.json + gulp
+. Put in `package.jon dependencies` all we need to just generate the assets we need in the dist folder, and in `devdependencies` what we need for development.
+. Improved the documentation
+. Removed the hello message when a new page is created
+. renamed `index.js` file for command line functionalities by `cmd.js`
+
+'''
+
+== [1.0.4] - 2017-05-10
+
+=== Added
+. Added actual url to the data sent to the pages (useful for navigation to display the active item)
+
+=== Fixed
+. Removed stringification followed by par parsing of the json.
+
+=== Modified
+. Page generated contains the code to display views instead of the hello message.
+. Created a `gulp build` task
+. Added `vendor-scripts` to gulp watch for js
+
+'''
+
+== [1.0.3] - 2017-04-28
+
+=== Fixed
+. Gulp update: css and js are now correctly rendered in `app/css` and `app/js`
+. Added `concat` to gulp for js files (only the last file was uglyfied)
+
+'''
+
+== [1.0.2] - 2017-04-24
+
+=== Changed
+. All files for the app are now in the `app` folder
+
+'''
+
+== [1.0.1] - 2017-04-18
+
+=== Added
+. CHANGELOG.adoc
+
+=== Changed
+. README.adoc
+
+=== Fixed
+. Updated "_partials_" name into .json files and cli by "_views_"
+
+'''
+
+== [1.0.0] - 2017-04-04
+=== First commit
