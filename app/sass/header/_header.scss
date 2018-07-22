@@ -40,7 +40,12 @@
     padding-right: 13px;
    
 }
-
+.dropdown{
+	display: block;
+}
+.dropdown-content {
+  display : none;
+}
 @media only screen and (max-width: 768px) {
 
    .flex-container {
@@ -57,8 +62,12 @@
   	height: 61px;
     width: 68px;
 	border-right: 15px solid white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
    }
-
+   
    .img{
     height: 61px;
     width: 151px;
@@ -77,6 +86,14 @@
  .flex-container a{
   display: none;
 }
-
+.dropdown-content {
+    display: block;
+    
+    background-color: #f1f1f1;
+    width: 150px;
+    font-size: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 
 }

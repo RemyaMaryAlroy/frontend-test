@@ -3,5 +3,5 @@ $( document ).ready( function(){
 });
 
 function menuOpen(){
-	var x = document.getElementById('');
+	
 }
