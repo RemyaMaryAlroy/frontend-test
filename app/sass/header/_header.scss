@@ -46,6 +46,37 @@
 .dropdown-content {
   display : none;
 }
+.row{
+  width: 100%;
+  height: 50px;
+}
+.col{
+width: 20%;
+color:#963737;
+font-size: 20px;
+font-style: bolique;
+font-variant: all-petite-caps;
+font-weight: bolder;
+}
+.col2{
+  padding-left : 8px;
+  color:#8c8989;
+  width: 14.05%;
+  font-size: 14px;
+  font-family: unset;
+  border-right: 2px solid #bfbdbd;
+  border-right-style: inset;
+}
+
+.row1{
+  border-top:2px solid #eceaea; 
+  width:70%; 
+  margin-top: 18px;
+}
+
+.row2 {
+ width:30%;
+}
 @media only screen and (max-width: 768px) {
 
    .flex-container {
