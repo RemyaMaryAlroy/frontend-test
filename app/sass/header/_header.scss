@@ -24,7 +24,9 @@
   height: 51px; 
   width: max-content;
 }
-
+.dots-change{
+ display : none;
+}
 .list{
 	display: none;
 }
@@ -211,6 +213,11 @@ font-weight: bolder;
 .specdiv{
    display:  none;
 }
+.dots-change{
+  display : block;
+  margin-left: 125px;
+  margin-top: 10px;
+ }
   .img2{
     width:20px;
     height:20px;
