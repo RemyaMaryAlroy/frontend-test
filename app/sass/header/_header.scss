@@ -41,7 +41,9 @@
   margin-right: 10px;
   display: inline;
 }
-
+.arrow-change{
+  display: inline-block;
+}
 .dropdown-content {
     display: none;
     position: absolute;
@@ -202,6 +204,9 @@ font-weight: bolder;
 .dropdown1:hover .mobiledropdown {
     display: block;
    
+}
+.arrow-change{
+  display: none;
 }
 .specdiv{
    display:  none;
