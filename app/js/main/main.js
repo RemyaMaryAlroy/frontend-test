@@ -1,11 +1,15 @@
 $( document ).ready( function(){
-	$('.dropdown-submenu a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
+ 
 });
-
-function menuOpen(){
-	  
-}
+$('#dropdown-submenu').click( function(){
+  var getClass = document.getElementsByClassName("limobilesub");
+  console.log(getClass);
+  for(var i =0;i< getClass.length; i++){
+    if ( getClass[i].style.display == 'none'){
+      getClass[i].style.display = "block";
+    }
+    else{
+      getClass[i].style.display = 'none';
+    }
+  }
+})
